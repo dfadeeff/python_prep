@@ -11,4 +11,5 @@ if __name__ == "__main__":
     coroutine_result = coroutine_add_one(1)
 
     print(f'Function result is {function_result} and the type is {type(function_result)}')
+    # To run a coroutine, we need to explicitly run it on an event loop.
     print(f'Function result is {coroutine_result} and the type is {type(coroutine_result)}')
