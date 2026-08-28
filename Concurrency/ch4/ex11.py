@@ -1,8 +1,8 @@
 import asyncio
 import aiohttp
 from aiohttp import ClientSession
-from ch2.ex16 import async_timed
-from ch2.ex6 import delay
+from util.timed import async_timed
+from util.delay_function import delay
 import logging
 
 from util import fetch_status

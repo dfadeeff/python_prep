@@ -1,4 +1,4 @@
-from ex6 import delay
+from util.delay_function import delay
 import asyncio
 
 async def add_one(number: int) -> int:

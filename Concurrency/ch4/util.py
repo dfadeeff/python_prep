@@ -1,6 +1,6 @@
 import asyncio
 from aiohttp import ClientSession
-from ch2.ex6 import delay
+from util.delay_function import delay
 
 
 async def fetch_status(session: ClientSession, url: str, delay: int = 0) -> int:
